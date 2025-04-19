@@ -1,0 +1,15 @@
+Variable | Tipo | Descripción
+nota | Entero | Nota ingresada en cada iteración
+sumaNotas | Entero | Suma total de todas las notas ingresadas
+cantidadNotas | Entero | Cantidad de notas válidas ingresadas
+aprobados | Entero | Cantidad de alumnos con nota ≥ 6
+noAprobados | Entero | Cantidad de alumnos con nota < 6
+muyBuenos | Entero | Cantidad de notas entre 8 y 10
+buenos | Entero | Cantidad de notas entre 6 y 7
+regulares | Entero | Cantidad de notas entre 4 y 5
+insuficientes | Entero | Cantidad de notas de 0 a 3
+promedio | Real | Promedio de todas las notas
+porcentajeMB | Real | % de notas muy buenas
+porcentajeB | Real | % de notas buenas
+porcentajeR | Real | % de notas regulares
+porcentajeI | Real | % de notas insuficientes
