@@ -1,9 +1,9 @@
 Algoritmo RangoPrimos
     Definir a, b, i, j, menor, mayor, contadorDiv Como Entero
 	
-    Escribir "Ingrese el primer número del rango:"
+    Escribir "Ingrese el primer nÃºmero del rango:"
     Leer a
-    Escribir "Ingrese el segundo número del rango:"
+    Escribir "Ingrese el segundo nÃºmero del rango:"
     Leer b
 	
     Si a < b Entonces
