@@ -1,0 +1,6 @@
+Variable | Tipo | Descripción
+cantidad | Entero | Cantidad de unidades de un producto
+precio | Real | Precio unitario del producto
+subtotal | Real | Resultado de cantidad * precio
+totalPagar | Real | Suma acumulada del monto a pagar por todos los productos
+totalProductos | Entero | Suma acumulada de productos ingresados
