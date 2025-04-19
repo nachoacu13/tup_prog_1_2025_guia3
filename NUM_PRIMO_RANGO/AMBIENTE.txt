@@ -1,0 +1,7 @@
+Variable | Tipo | Descripción
+a, b | Entero | Valores extremos del rango ingresados por el usuario
+menor | Entero | Límite inferior del rango
+mayor | Entero | Límite superior del rango
+i | Entero | Recorre el rango entre menor y mayor
+j | Entero | Recorre divisores de cada número
+contadorDiv | Entero | Cuenta los divisores de cada número
