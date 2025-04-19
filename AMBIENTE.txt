@@ -1,0 +1,15 @@
+Variable | Tipo | Descripción
+codigoLote | Entero | Código del lote (clave para controlar corte)
+medidaEsperada | Real | Medida teórica esperada del tornillo
+medicion | Real | Medición real de cada tornillo
+error | Real | Error absoluto entre medición y medida esperada
+mayorError | Real | Mayor error absoluto registrado en el lote
+fallasLote | Entero | Cantidad de productos fallados en el lote
+fallasTotales | Entero | Cantidad total de fallas en todos los lotes
+productosTotales | Entero | Cantidad total de productos evaluados (10 × cantidad de lotes)
+lotesProcesados | Entero | Cantidad total de lotes cargados
+minFallas | Entero | Menor cantidad de fallas encontrada en un lote
+maxFallas | Entero | Mayor cantidad de fallas encontrada en un lote
+loteMenosFallado | Entero | Código del lote con menos fallas
+loteMasFallado | Entero | Código del lote con más fallas
+i | Entero | Contador del bucle de los 10 tornillos
