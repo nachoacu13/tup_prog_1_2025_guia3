@@ -1,0 +1,4 @@
+Variable | Tipo | Descripción
+n | Entero | Número ingresado por el usuario
+i | Entero | Contador del ciclo que recorre del 1 a n
+contadorDiv | Entero | Cuenta cuántos divisores tiene el número
