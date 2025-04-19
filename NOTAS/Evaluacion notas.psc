@@ -13,7 +13,7 @@ Algoritmo EvaluacionNotas
     insuficientes <- 0
 	
     Repetir
-        Escribir "Ingrese una nota (0-10). Ingrese número negativo para terminar:"
+        Escribir "Ingrese una nota (0-10). Ingrese nÃºmero negativo para terminar:"
         Leer nota
 		
         Si nota >= 0 Y nota <= 10 Entonces
@@ -26,7 +26,7 @@ Algoritmo EvaluacionNotas
                 noAprobados <- noAprobados + 1
             FinSi
 			
-            // Clasificación
+            // ClasificaciÃ³n
             Si nota >= 8 Entonces
                 muyBuenos <- muyBuenos + 1
             Sino
@@ -59,6 +59,6 @@ Algoritmo EvaluacionNotas
         Escribir "Porcentaje Regulares (4-5): ", porcentajeR, "%"
         Escribir "Porcentaje Insuficientes (0-3): ", porcentajeI, "%"
     Sino
-        Escribir "No se ingresaron notas válidas."
+        Escribir "No se ingresaron notas vÃ¡lidas."
     FinSi
 FinAlgoritmo
