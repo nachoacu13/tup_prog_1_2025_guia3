@@ -1,11 +1,11 @@
 Algoritmo NumeroPrimo
     Definir n, i, contadorDiv Como Entero
 	
-    Escribir "Ingrese un número entero:"
+    Escribir "Ingrese un nÃºmero entero:"
     Leer n
 	
     Si n <= 1 Entonces
-        Escribir "No es un número primo"
+        Escribir "No es un nÃºmero primo"
     Sino
         contadorDiv <- 0
         Para i <- 1 Hasta n Hacer
@@ -15,9 +15,9 @@ Algoritmo NumeroPrimo
         FinPara
 		
         Si contadorDiv = 2 Entonces
-            Escribir "Es un número primo"
+            Escribir "Es un nÃºmero primo"
         Sino
-            Escribir "No es un número primo"
+            Escribir "No es un nÃºmero primo"
         FinSi
     FinSi
 FinAlgoritmo
