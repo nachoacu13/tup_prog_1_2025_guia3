@@ -8,7 +8,7 @@ Algoritmo ControlCalidadTornillos
     minFallas <- 11  
     maxFallas <- -1  
 	
-    Escribir "Ingrese el código del lote (0 para fin):"
+    Escribir "Ingrese el cÃ³digo del lote (0 para fin):"
     Leer codigoLote
 	
     Mientras codigoLote <> 0 Hacer
@@ -19,7 +19,7 @@ Algoritmo ControlCalidadTornillos
         mayorError <- 0
 		
         Para i <- 1 Hasta 10 Hacer
-            Escribir "Ingrese medición del producto ", i, ":"
+            Escribir "Ingrese mediciÃ³n del producto ", i, ":"
             Leer medicion
 			
             error <- abs(medicion - medidaEsperada)
@@ -50,7 +50,7 @@ Algoritmo ControlCalidadTornillos
             loteMasFallado <- codigoLote
         FinSi
 		
-        Escribir "Ingrese el código del siguiente lote (0 para finalizar):"
+        Escribir "Ingrese el cÃ³digo del siguiente lote (0 para finalizar):"
         Leer codigoLote
     FinMientras
 	
